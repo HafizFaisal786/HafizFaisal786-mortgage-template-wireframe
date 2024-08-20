@@ -1,0 +1,54 @@
+/* Skin-specific styles
+----------------------- */
+/*--------------Contact Form 7-----------------*/
+form.wpcf7-form textarea,
+form.wpcf7-form input[type="text"],
+form.wpcf7-form input[type="email"] {
+  width: 100%; }
+
+form.wpcf7-form .row {
+  padding-bottom: 10px;
+  margin-right: 0; }
+
+form.wpcf7-form input[type="checkbox"],
+form.wpcf7-form input[type="submit"] {
+  width: auto; }
+
+form.wpcf7-form span[class*='acceptance'] span.wpcf7-list-item {
+  margin: 0.3em 0 0 0;
+  display: block;
+  position: relative;
+  line-height: 1em; }
+
+.wpcf7-spinner,
+form.wpcf7-form .ajax-loader,
+form.wpcf7-form span[class*='acceptance'] input {
+  display: none; }
+
+form.wpcf7-form .flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+
+form.wpcf7-form .itm {
+  flex-basis: 49.5%; }
+
+form.wpcf7-form .sc_form_field_button {
+  text-align: right; }
+
+form.wpcf7-form .sc_form_field_button input[type="submit"] {
+  margin-top: 2.15384615385em; }
+
+.comment-form input[type=checkbox] + label,
+.comment-form .wpgdprc-checkbox label,
+.wpcf7-form .wpgdprc {
+  font-size: inherit;
+  color: inherit;
+  font-weight: 500;
+  display: block;
+  text-align: left; }
+
+.comment-form-cookies-consent {
+  clear: both; }
+
+/*# sourceMappingURL=skin.css.map */

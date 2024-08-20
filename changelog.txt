@@ -1,0 +1,97 @@
+Version 1.0.9
+	Added:
+    	- WP 6.3.2 compatibility
+    	- Added: TikTok & Twitter (x) icons
+    	- Compatibility with QuickCal plugin
+
+	Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+
+	Changed:
+        - Update demo data
+
+Version 1.0.8
+	Added:
+        - Compatibility with Essential Grid 3.0.17
+
+Version 1.0.7
+	Added:
+        - WP 6.1.1 compatibility
+
+	Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+
+	Changed:
+        - Update demo data
+
+Version 1.0.6
+	Added:
+		- WP 6.0.2 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+Version 1.0.5
+    Changed:
+        - Update demo data
+
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+
+    Removed:
+        - Gplus links
+
+Version 1.0.4
+    Added:
+        - WP 5.8 compatibility
+        - PHP 8+ compatibility
+        
+    Fixed:
+        - Themerex Addons vulnerability
+        - The Events Calendar plugin styles
+        
+    Changed:
+        - Update demo data    
+
+    Removed:
+        - WP VR View plugin
+
+Version 1.0.3
+
+    Fixed:
+        - Themerex Addons vulnerability
+        - The Events Calendar plugin styles
+
+    Removed:
+        - Contact Form 7 Datepicker plugin
+
+    Added:
+        - Date Time Picker Field plugin
+
+Version 1.0.2
+
+    Fixed:
+        - Themerex Addons vulnerability
+
+Release – v.1.0.1
+
+    Changed:
+        - Update demo data
+        - Update content on homepages
+
+    Fixed:
+        - Fixed Properties Search
+        - Fixed Properties Compare
+        - Improve theme styles
+
+
+Release – v.1.0
+
+    Plugin TRX Addons has been edited:
+        - Elementor.php : 185, 195

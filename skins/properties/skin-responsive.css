@@ -1,0 +1,32 @@
+/* Skin-specific responsive styles
+---------------------------------- */
+@media (max-width: 1279px) {
+  .menu_hover_fade .sc_layouts_menu_nav > li > a:not(.trx_addons_login_link) {
+    padding: 0.7377rem 1rem 0.6377rem !important; } }
+@media (max-width: 1023px) {
+  /*Icons Simple*/
+  .sc_icons_simple.sc_icons .sc_icons_item {
+    -webkit-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
+
+  /*Team*/
+  .sc_team_alter .post_featured {
+    margin: 0; }
+
+  .sc_team_alter .sc_team_columns_wrap .sc_team_item {
+    display: block; }
+
+  .sc_team_alter .sc_team_item_info {
+    padding: 2rem; }
+
+  .sc_skills_counter .sc_skills_icon {
+    width: 7rem;
+    height: 7rem;
+    line-height: 7rem;
+    font-size: 40px; }
+
+  .sc_icons_simple.sc_icons .sc_icons_item .inner_simple_wrap {
+    padding: 20%; } }
+
+/*# sourceMappingURL=skin-responsive.css.map */

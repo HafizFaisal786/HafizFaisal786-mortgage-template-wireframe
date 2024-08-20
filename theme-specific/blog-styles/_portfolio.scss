@@ -1,0 +1,24 @@
+/* Blog layout: Portfolio
+------------------------- */
+.post_layout_portfolio .post_title {
+	margin: 1em 0 0.4em;
+}
+.post_layout_portfolio .post_featured {
+	margin-bottom:0;
+}
+.post_layout_portfolio .post_featured img {
+	width: 100%;
+}
+.post_layout_portfolio .label_sticky {
+	top: -12px;
+	left: -12px;
+	right:auto;
+	@include rotate(135deg);
+}
+.post_layout_portfolio .post_featured.hover_icon .icons a {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: -17px 0 0 -17px;
+}

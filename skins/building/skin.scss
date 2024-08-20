@@ -1,0 +1,309 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+/* Skin-specific styles
+----------------------- */
+.image-z-index img {
+  position: relative;
+  z-index: 9;
+}
+
+/*General*/
+.trx_addons_dropcap {
+  line-height: 5.7rem !important;
+  font-size: 3.75rem !important;
+}
+.trx_addons_dropcap.trx_addons_dropcap_style_2 {
+  line-height: 5rem !important;
+  font-size: 5rem !important;
+  margin: 0 1.8rem 0 0 !important;
+}
+table th {
+  letter-spacing: 0;
+}
+.tribe-events-c-nav__list-item.tribe-events-c-nav__list-item--today a,
+form button:not(.tribe-bar-views-toggle),
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.theme_button,
+.post_item .more-link,
+.gallery_preview_show .post_readmore,
+#buddypress .comment-reply-link,
+#buddypress .generic-button a,
+#buddypress a.button,
+#buddypress button,
+#buddypress input[type="button"],
+#buddypress input[type="reset"],
+#buddypress input[type="submit"],
+#buddypress ul.button-nav li a,
+#buddypress div.activity-meta a,
+a.bp-title-button,
+body .booked-modal input[type=submit], 
+body .booked-modal button, 
+body .booked-calendar button, button:not(.components-button),
+body #booked-profile-page input[type="submit"],
+body #booked-profile-page button,
+body .booked-list-view input[type="submit"],
+body .booked-list-view button, body table.booked-calendar input[type="submit"],
+body table.booked-calendar button, body .booked-modal input[type="submit"],
+body .booked-modal button, .mc4wp-form .mc4wp-form-fields input[type="submit"],
+.sc_button, .sc_form button, .tourmaster-tour-search-wrap input.tourmaster-tour-search-submit[type="submit"],
+#tribe-bar-form .tribe-bar-submit input[type="submit"], #tribe-bar-form button:not(.tribe-bar-views-toggle), #tribe-bar-form a,
+#tribe-bar-form input,
+#tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a,
+.tribe-bar-mini #tribe-bar-views .tribe-bar-views-list .tribe-bar-views-option a,
+#tribe-events .tribe-events-button, .tribe-events-button, .tribe-events-cal-links a,
+.tribe-events-sub-nav li a, .tribe-events-read-more, #tribe-events-footer ~ a.tribe-events-ical.tribe-events-button,
+.edd_download_purchase_form .button, #edd-purchase-button, .edd-submit.button, .widget_edd_cart_widget .edd_checkout a,
+.woocommerce .button, .woocommerce-page .button, .woocommerce a.button, .woocommerce button.button,
+.woocommerce input.button .woocommerce #respond input#submit, .woocommerce input[type="button"],
+.woocommerce-page input[type="button"], .woocommerce input[type="submit"], .woocommerce-page input[type="submit"],
+.woocommerce .woocommerce-message .button, .woocommerce ul.products li.product .button, .woocommerce div.product form.cart .button,
+.woocommerce #review_form #respond p.form-submit input[type="submit"], .woocommerce-page #review_form #respond p.form-submit input[type="submit"],
+.woocommerce table.my_account_orders .order-actions .button, .woocommerce table.cart td.actions .button,
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button, .woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit[disabled]:disabled,
+.woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce a.button[disabled]:disabled,
+.woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button[disabled]:disabled,
+.woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce input.button[disabled]:disabled, .yith-woocompare-widget a.clear-all,
+.tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button,
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-c-btn-border-small, .tribe-common--breakpoint-medium.tribe-common a.tribe-common-c-btn-border-small,
+.sc_table_alter td a, .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-search__button, .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-search__button:hover,
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-search__button:focus, .tribe-events-header .tribe-common-h3.tribe-events-c-top-bar__datepicker-button, .tribe-events .tribe-events-c-top-bar__nav-link, .tribe-events .tribe-events-c-nav__next.tribe-common-b2, .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-ical__link, .tribe-events .tribe-events-c-nav__prev.tribe-common-b2 {
+  @include border-radius(50px);
+}
+.tribe-events button.tribe-events-c-top-bar__datepicker-button:focus, .tribe-events button.tribe-events-c-top-bar__datepicker-button:hover,
+.tribe-events .tribe-events-c-nav__next:disabled, .tribe-events .tribe-events-c-nav__prev:disabled,
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-search__button:hover,
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-search__button:focus,
+.tribe-events button.tribe-events-c-top-bar__datepicker-button,
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-c-btn-border-small,
+.tribe-common--breakpoint-medium.tribe-common a.tribe-common-c-btn-border-small,
+.tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button,
+.sc_button,
+.sc_form button,
+.sc_matches_item_pair .sc_matches_item_player .post_featured > img {
+  @include border-radius(50px);
+}
+.tribe-common .tribe-common-c-btn,
+.tribe-common .tribe-common-c-btn:focus,
+.tribe-common .tribe-common-c-btn:hover,
+.tribe-common a.tribe-common-c-btn,
+.tribe-common a.tribe-common-c-btn:focus,
+.tribe-common a.tribe-common-c-btn:hover,
+.tribe-common button.tribe-common-c-btn,
+.tribe-common button.tribe-common-c-btn:focus,
+.tribe-common button.tribe-common-c-btn:hover {
+  @include border-radius(50px);
+}
+.wpcf7-list-item-label.wpcf7-list-item-right:before {
+  border: 1px solid #f0ba38;
+}
+
+
+/*Blog*/
+.trx_addons_video_player.with_cover .video_hover,
+.format-video .post_featured.with_thumb .post_video_hover {
+  @include border-radius(50%);
+}
+
+/*Sidebar*/
+.sidebar .widget_categories_list .categories_list_columns > div + div {
+  border-top: 1px solid #ffffff;
+}
+
+/*Form*/
+input[type="radio"] + label:before, input[type="checkbox"] + label:before,
+input[type="radio"] + .wpcf7-list-item-label:before,
+input[type="checkbox"] + .wpcf7-list-item-label:before,
+.wpcf7-list-item-label.wpcf7-list-item-right:before,
+.edd_price_options ul > li > label > input[type="radio"] + span:before,
+.edd_price_options ul > li > label > input[type="checkbox"] + span:before {
+  border: 1px solid #e9b639;
+}
+
+/*Skills*/
+.sc_skills_counter .sc_skills_item_wrap {
+  background: none !important;
+}
+.sc_skills_counter .sc_skills_icon{
+  width: 9.875rem;
+  height: 9.875rem;
+  line-height: 9.875rem;
+  @include border-radius(50%);
+}
+.sc_skills_counter .sc_skills_icon + .sc_skills_total {
+  margin-top: 0.8em !important;
+}
+
+/*Icons*/
+.sc_icons_default.sc_icons.sc_icons_size_small .sc_icons_icon {
+  border: 2px solid;
+  @include border-radius(50%);
+}
+
+.sc_icons_default.sc_align_left .sc_icons_icon + .sc_icons_item_details,
+.sc_icons_default.sc_align_left .sc_icons_image + .sc_icons_item_details {
+  margin-top: 0 !important;
+  margin-left: 2.3rem;
+}
+.sc_icons_default.sc_align_right .sc_icons_icon + .sc_icons_item_details,
+.sc_icons_default.sc_align_right .sc_icons_image + .sc_icons_item_details {
+  margin-top: 0 !important;
+  margin-right: 2.3em;
+}
+.sc_icons_default.sc_icons.sc_align_left .sc_icons_item,
+.sc_icons_default.sc_icons.sc_align_right .sc_icons_item {
+  display: flex;
+  align-items: center;
+}
+.sc_icons_default.sc_icons.sc_align_left .sc_icons_item+.sc_icons_item,
+.sc_icons_default.sc_icons.sc_align_right .sc_icons_item+.sc_icons_item {
+  margin-top: 1.850rem;
+  padding-top: 1.850rem;
+  border-top: 1px solid #232c40 !important;
+}
+
+/*Icons alter*/
+.sc_icons_alter .sc_icons_char {
+  @include border-radius(50%);
+  width: 6.125rem;
+  height: 6.125rem;
+  line-height: 6.325rem;
+}
+.sc_icons_alter.sc_icons_size_small .sc_icons_icon:before,
+.sc_icons_alter.sc_icons_size_small .sc_icons_icon > span:before {
+  font-size: 1.625rem;
+}
+.sc_icons_alter .sc_icons_item_details {
+  margin-top: 1.4rem;
+}
+.sc_icons_alter.sc_align_center .sc_icons_item_title + .sc_icons_item_description {
+  padding: 0 1.5rem;
+}
+.sc_icons_alter.sc_icons .sc_icons_item {
+  margin-bottom: 1rem;
+}
+
+/*Grid*/
+.esg-navigationbutton.esg-loadmore {
+  @include border-radius(50px !important);
+}
+
+/*Team*/
+.sc_team_default .sc_team_item_content {
+  display: none;
+}
+.sc_team_alter .sc_team_item_subtitle {
+  font-size: 1rem !important;
+  line-height: normal !important;
+  font-style: normal !important;
+}
+.sc_team_alter .sc_team_item_socials .social_item .social_icon {
+  width: 44px !important;
+  height: 44px !important;
+  line-height: 43px !important;
+  border: 2px solid;
+  font-weight: 700;
+  font-size: 17px;
+}
+.sc_team_alter .sc_team_item_socials .social_item {
+  margin: 0 -2px 0 0 !important;
+}
+.sc_team_alter .sc_team_item_socials {
+  margin-top: 1rem !important;
+}
+.sc_team_alter .sc_team_item_socials .social_item:hover .social_icon {
+  position: relative;
+  z-index: 1;
+}
+.sc_team_alter .post_featured {
+  margin: 0 4rem 0 0;
+  flex: 5;
+}
+.sc_team_alter .sc_team_columns_wrap .sc_team_item {
+  display: flex;
+  align-items: center;
+}
+.sc_team_alter .sc_team_item_title {
+  margin-bottom: 0.9412rem;
+}
+.sc_team_alter .sc_team_item_content {
+  margin-top: 1.4rem;
+}
+.sc_team_alter .sc_team_item_content p {
+  margin: 0;
+}
+.sc_team_alter .sc_team_item_info {
+  flex: 4;
+  padding-right: 2rem;
+}
+
+/*Properties*/
+.sc_properties_item_option .sc_properties_item_option_label_icon {
+  @include border-radius(50%);
+}
+
+/*Events*/
+.sc_events_classic .sc_events_item_date:before,
+.sc_events_classic .sc_events_item_time:before {
+  @include border-radius(50%);
+}
+.datepicker table tr td.day.focused,
+.datepicker table tr td.day:hover {
+  color: #000;
+}
+
+/*Menu*/
+.menu_hover_fade .sc_layouts_menu_nav > li.menu-item-has-children > a:after {
+  display: none;
+}
+.menu_hover_fade .sc_layouts_menu_nav > li > a:not(.trx_addons_login_link) {
+  padding: 0.7377rem 1.8rem 0.6377rem !important;
+  border: 2px solid transparent;
+  @include border-radius(50px);
+}
+header .menu_hover_fade .sc_layouts_menu_nav > li + li {
+  margin-left: 0.55rem;
+}
+
+/*Booked*/
+body .booked-form .field label.field-label,
+body .booked-calendar-wrap .booked-appt-list h2 {
+  letter-spacing: 0;
+}
+#customerChoices .field .checkbox-radio-block label {
+  letter-spacing: 0;
+}
+body .booked-form .field .button {
+  margin-top: 1rem !important;
+}
+
+/*Mailchimp*/
+form.mc4wp-form .mc4wp-form-fields input[type="email"],
+form.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+  @include border-radius(50px);
+}
+.white-text .wpcf7-list-item-label,
+.white-text .wpcf7-response-output {
+  color: #ffffff;
+}
+
+/*WPIM*/
+.wpim-infowindow__inner em:before {
+  display: none;
+}
+
+input[type="checkbox"] + label:before,
+input[type="checkbox"] + .wpcf7-list-item-label:before,
+.wpcf7-list-item-label.wpcf7-list-item-right:before{
+	transform: translateY(30%);
+}
+
+#trx_addons_login_popup input[type=checkbox] + label:before {
+	-webkit-transform: translateY(20%);
+	-ms-transform: translateY(20%);
+	transform: translateY(20%);
+}

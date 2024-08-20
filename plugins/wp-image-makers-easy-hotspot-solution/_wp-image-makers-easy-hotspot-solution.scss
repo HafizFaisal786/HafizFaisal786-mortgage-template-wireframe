@@ -1,0 +1,46 @@
+/*Image marker*/
+.wpim-infowindow__inner strong {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+.wpim-infowindow__inner em {
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.14px;
+  font-style: normal;
+}
+.wpim-infowindow__inner em:before {
+  content: '\E811';
+  font-family: fontello;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 17px;
+  position: relative;
+  top: 1px;
+}
+.wpim-marker .wpim-infowindow--paragraph .wpim-infowindow__inner {
+  text-align: center;
+}
+.wpim-infowindow__inner p {
+  margin-bottom: 0;
+}
+.wpim-marker .wpim-infowindow {
+  min-width: 170px !important;
+}
+.wpim-marker .wpim-infowindow--top:before {
+  bottom: -5px !important;
+}
+
+.elementor-section.elementor-section-stretched {
+  .wpim {
+    width: 100%;
+    .wpim-image img {
+      width: 100%;
+    }
+  }
+}

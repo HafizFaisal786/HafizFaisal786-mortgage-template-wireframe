@@ -1,0 +1,9 @@
+/* Skin-specific responsive styles
+---------------------------------- */
+@media (max-width: 479px) {
+  form.wpcf7-form .flex {
+    flex-direction: column; }
+  form.wpcf7-form .itm {
+    flex-basis: 100%; } }
+
+/*# sourceMappingURL=skin-responsive.css.map */

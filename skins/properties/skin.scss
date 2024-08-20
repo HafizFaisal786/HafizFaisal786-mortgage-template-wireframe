@@ -1,0 +1,303 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+/* Skin-specific styles
+----------------------- */
+
+
+/*General*/
+.trx_addons_dropcap {
+  line-height: 5.7rem !important;
+  font-size: 3.75rem !important;
+}
+.trx_addons_dropcap.trx_addons_dropcap_style_2 {
+  line-height: 5rem !important;
+  font-size: 5rem !important;
+  margin: 0 1.8rem 0 0 !important;
+}
+ul.trx_addons_list_alter[class*="trx_addons_list"] {
+  font-weight: 900;
+}
+.trx_addons_video_player.with_cover .video_hover,
+.body_style_fullwide .format-video .post_featured.with_thumb .post_video_hover,
+.post_layout_excerpt.format-video .post_featured.with_thumb .post_video_hover,
+.post_layout_chess_1.format-video .post_featured.with_thumb .post_video_hover {
+  @include border-radius(50%);
+}
+blockquote:before {
+  content: '\E962';
+}
+.socials_wrap .social_item .social_icon {
+  @include border-radius(0px);
+}
+.sc_table_alter td a {
+  @include border-radius(50px);
+}
+footer {
+  margin-top: -1px;
+}
+.extra-row .elementor-container.elementor-column-gap-extended:before,
+.extra-row .elementor-container.elementor-column-gap-extended .elementor-row:before {
+  background-color: #272b4a;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing,
+.wpcf7 div.wpcf7-response-output {
+  @include border-radius(30px);
+}
+
+/*Sidebar*/
+.sidebar .sc_recent_news .post_item .post_title, .footer_wrap .sc_recent_news .post_item .post_title {
+  letter-spacing: -0.55px;
+  font-size: 1.375rem !important;
+  line-height: 1.625rem !important;
+}
+.widget_recent_comments ul li:before {
+  content: '\E962' !important;
+  font-size: 2.7rem;
+  top: -6px;
+}
+.widget_calendar td#today:before {
+  @include border-radius(50%);
+}
+.widget_search form:after,
+.woocommerce.widget_product_search form:after,
+.widget_display_search form:after,
+#bbpress-forums #bbp-search-form:after {
+  font-size: 1.4rem;
+  right: 1em;
+}
+
+/*Skills*/
+.sc_skills_counter .sc_skills_item_wrap {
+  background: none !important;
+}
+.sc_skills_counter .sc_skills_icon{
+  width: 9.875rem;
+  height: 9.875rem;
+  line-height: 9.875rem;
+  @include border-radius(50%);
+  margin-left: auto;
+  margin-right: auto;
+}
+.sc_skills_counter .sc_skills_icon + .sc_skills_total {
+  margin-top: 0.8em !important;
+}
+
+/*Testimonials*/
+.sc_testimonials_item_content:before {
+  content: '\E901';
+  font-size: 2.7rem !important;
+  margin-top: -1.2rem;
+}
+.sc_testimonials_item_author_avatar {
+  @include border-radius(50% !important);
+}
+.sc_testimonials .swiper-pagination-custom .swiper-pagination-button {
+  @include border-radius(50% !important);
+  width: 8.125rem !important;
+  height: 8.125rem !important;
+}
+.slider_container.slider_pagination_pos_bottom .swiper-pagination-custom,
+.slider_outer.slider_outer_pagination_pos_bottom .swiper-pagination-custom,
+.slider_outer.slider_outer_pagination_pos_bottom_outside .swiper-pagination-custom {
+  background: none !important;
+}
+.swiper-pagination-custom .swiper-pagination-button {
+  border-width: 10px;
+  margin: 0 -4px;
+}
+.swiper-pagination-custom .swiper-pagination-button.swiper-pagination-button-active,
+.sc_slider_controls.slider_pagination_style_bullets .slider_pagination_bullet.swiper-pagination-bullet-active,
+.sc_slider_controls.slider_pagination_style_bullets .slider_pagination_bullet:hover,
+.slider_container .slider_pagination_wrap .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.slider_outer .slider_pagination_wrap .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.slider_container .slider_pagination_wrap .swiper-pagination-bullet:hover,
+.slider_outer .slider_pagination_wrap .swiper-pagination-bullet:hover {
+  z-index: 1;
+  position: relative;
+}
+
+/*Single Post*/
+.post_item_single .post_content .post_tags a {
+  @include border-radius(50px);
+}
+
+/*Icons*/
+.sc_icons_default.sc_icons.sc_icons_size_small .sc_icons_icon {
+  @include border-radius(50%);
+}
+
+.sc_icons_default.sc_align_left .sc_icons_icon + .sc_icons_item_details,
+.sc_icons_default.sc_align_left .sc_icons_image + .sc_icons_item_details {
+  margin-top: 0 !important;
+  margin-left: 2.3rem;
+}
+.sc_icons_default.sc_align_right .sc_icons_icon + .sc_icons_item_details,
+.sc_icons_default.sc_align_right .sc_icons_image + .sc_icons_item_details {
+  margin-top: 0 !important;
+  margin-right: 2.3em;
+}
+.sc_icons_default.sc_icons.sc_align_left .sc_icons_item,
+.sc_icons_default.sc_icons.sc_align_right .sc_icons_item {
+  display: flex;
+  align-items: center;
+}
+.sc_icons_default.sc_icons.sc_align_left .sc_icons_item+.sc_icons_item,
+.sc_icons_default.sc_icons.sc_align_right .sc_icons_item+.sc_icons_item {
+  margin-top: 1.850rem;
+  padding-top: 1.850rem;
+  border-top: 1px solid #232c40 !important;
+}
+
+/*Icons Simple*/
+.sc_icons_simple.sc_icons .sc_icons_item:before {
+  @include border-radius(50%);
+}
+
+/*Properties*/
+.properties-table .sc_table table tr:first-child td,
+.properties-table .sc_table table tr td {
+  font-weight: 900;
+}
+.sc_properties_item_option .sc_properties_item_option_label_icon {
+  @include border-radius(50%);
+}
+
+/*Grid*/
+.esg-navigationbutton.esg-loadmore {
+  @include border-radius(50px !important);
+}
+div.esg-filter-wrapper .esg-filterbutton, .mptt-navigation-tabs li, div.heaven11_tabs .heaven11_tabs_titles li,
+div.esg-filter-wrapper .esg-filterbutton > span,
+.mptt-navigation-tabs li a,
+div.heaven11_tabs
+.heaven11_tabs_titles li a,
+div.heaven11_tabs .heaven11_tabs_titles li a.ui-tabs-anchor {
+  @include border-radius(50px !important);
+}
+div.esg-filter-wrapper .esg-filterbutton, .mptt-navigation-tabs li, div.heaven11_tabs .heaven11_tabs_titles li {
+  background: transparent !important;
+}
+
+
+/*Team*/
+.sc_team_default .sc_team_item_content {
+  display: none;
+}
+.sc_team_alter .sc_team_item_subtitle {
+  font-size: 1rem !important;
+  line-height: normal !important;
+  font-style: normal !important;
+}
+.sc_team_alter .sc_team_item_socials .social_item .social_icon {
+  width: 44px !important;
+  height: 44px !important;
+  line-height: 43px !important;
+  border: 2px solid;
+  font-weight: 700;
+  font-size: 17px;
+}
+.sc_team_alter .sc_team_item_socials .social_item {
+  margin: 0 -2px 0 0 !important;
+}
+.sc_team_alter .sc_team_item_socials {
+  margin-top: 1rem !important;
+}
+.sc_team_alter .sc_team_item_socials .social_item:hover .social_icon {
+  position: relative;
+  z-index: 1;
+}
+.sc_team_alter .post_featured {
+  margin: 0 4rem -1px 0;
+  flex: 5;
+}
+.sc_team_alter .sc_team_columns_wrap .sc_team_item {
+  display: flex;
+  align-items: center;
+}
+.sc_team_alter .sc_team_item_title {
+  margin-bottom: 0.9412rem;
+}
+.sc_team_alter .sc_team_item_content {
+  margin-top: 1.4rem;
+}
+.sc_team_alter .sc_team_item_content p {
+  margin: 0;
+}
+.sc_team_alter .sc_team_item_info {
+  flex: 4;
+  padding-right: 2rem;
+}
+
+
+/*Services Tabs*/
+.sc_services_tabs_simple .sc_services_tabs_list_item:before {
+  border-radius: 50%;	
+}
+
+/*Events*/
+#tribe-bar-form input[type="text"] {
+  @include border-radius(50px);
+}
+#tribe-bar-form label {
+  margin-bottom: 1.3rem;
+}
+.sc_events_classic .sc_events_item_date:before,
+.sc_events_classic .sc_events_item_time:before {
+  @include border-radius(50%);
+}
+#tribe-bar-views .tribe-bar-views-list {
+  margin-top: 10px;
+}
+.tribe-bar-views-list>li.tribe-bar-views-option:first-child {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+#tribe-bar-views .tribe-bar-views-option:last-child {
+  border-bottom-left-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+}
+
+/*Iconed text*/
+.sc_layouts_iconed_text_alter .sc_layouts_item_icon {
+  @include border-radius(50%);
+  width: 55px;
+}
+
+/*Mailchimp*/
+.white-text .wpcf7-list-item-label {
+  color: #ffffff;
+}
+
+
+/*Menu*/
+.menu_hover_fade .sc_layouts_menu_nav > li.menu-item-has-children > a:after {
+  display: none;
+}
+.menu_hover_fade .sc_layouts_menu_nav > li > a:not(.trx_addons_login_link) {
+  padding: 0.7377rem 1.8rem 0.6377rem !important;
+  border: 2px solid transparent;
+  @include border-radius(50px);
+}
+header .menu_hover_fade .sc_layouts_menu_nav > li + li {
+  margin-left: 0.55rem;
+}
+.sc_layouts_iconed_text.sc_layouts_menu_mobile_button {
+  background: none !important;
+}
+
+input[type="checkbox"] + label:before,
+input[type="checkbox"] + .wpcf7-list-item-label:before,
+.wpcf7-list-item-label.wpcf7-list-item-right:before{
+	transform: translateY(30%);
+}
+
+#trx_addons_login_popup input[type=checkbox] + label{
+	line-height: 1.5;
+}
+
+#trx_addons_login_popup input[type=checkbox] + label:before {
+	-webkit-transform: translateY(20%);
+	-ms-transform: translateY(20%);
+	transform: translateY(20%);
+}
